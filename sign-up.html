@@ -15,25 +15,32 @@
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
         <div class="signup-form">
-            <p>Sign up for NBA news, and a special birthday email!</p>
-            <form action="submit" method="post">
-                <div class="name">
-                    <label for="name">Name: </label>
-                    <input type="text" id="name">
-                </div>
-                <div class="email">
-                    <label for="email">Email: </label>
-                    <input type="text" id="email">
-                </div>
-                <div class="bday">
-                    <label for="bday">Birthday</label>
-                    <input type="date" name="" id="bday">
-                </div>
-                <div class="button">
-                <button type="submit">Sign Up</button>
-                </div>
+            <fieldset >
+                <legend>Join Today!</legend>
+                <p>Sign up for NBA news, and a special birthday email!</p>
+                <form action="submit" method="post">
+                    <div class="name">
+                        <label for="name">Name: </label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="email">
+                        <label for="email">Email: </label>
+                        <input type="text" id="email">
+                    </div>
+                    <div class="bday">
+                        <label for="bday">Birthday</label>
+                        <input type="date" name="" id="bday">
+                    </div>
+                    <div class="textarea">
+                        <label for="comment">Tell us about your journey</label>
+                        <textarea name="comment" id="comment" cols="30" rows="10">It all started when...</textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Sign Up</button>
+                    </div>
 
-            </form>
+                </form>
+            </fieldset>
         </div>
         </body>
 </html>
